@@ -18,7 +18,7 @@ module.exports = generators.Base.extend({
 
   writing: function() {
       this.directory(
-          'client',
+          '',
           this.state.name
       );
   }
